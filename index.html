@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>XV Lucía</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="detalles.css" />
+</head>
+<body>
+
+  <section class="cuenta-regresiva">
+    <h2>Lucia</h2>
+    <h2>Mis 15 años</h2>
+    <div id="contador"></div>
+  </section>
+
+  <section class="evento">
+    <h2>Detalles del Evento</h2>
+    <p><strong>Fecha:</strong> Sábado 22 de Noviembre de 2025</p>
+    <p><strong>Hora:</strong> 21:00 hs</p>
+    <p><strong>Lugar:</strong> Villa Mercedes, San Luis</p>
+    <a class="btn-calendario" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=XV+Lucia&dates=20250810T230000Z%2F20250811T050000Z&details=Fiesta+de+XV+de+Lucia&location=Salon+Eleganza,+Av.+de+los+Sue%C3%B1os+1234" target="_blank">Agendar en Google Calendar</a>
+  </section>
+
+  <section class="rsvp">
+    <h2>Confirmá tu asistencia</h2>
+    <form action="#" method="post">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="number" placeholder="Cantidad de acompañantes" required />
+      <input type="tel" placeholder="Teléfono de contacto" required />
+      <button type="submit">Confirmar</button>
+    </form>
+  </section>
+
+  <section class="galeria">
+    <h2>Galería</h2>
+    <img src="img/foto1.jpg" alt="Lucía 1" />
+    <img src="img/foto2.jpg" alt="Lucía 2" />
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- 🔥 NUEVA SECCIÓN DE TARJETAS -->
+  <section class="tarjetas">
+    <!-- REGALOS -->
+    <div class="card">
+      <h3 class="card-title">🎁 Regalos</h3>
+      <div class="card-content">
+        <p>Si querés hacerme un regalo especial, estos son mis datos:</p>
+        <p><strong>Alias:</strong> lucia.cumple.xv</p>
+        <p><strong>CBU:</strong> 0000003100001234567890</p>
+      </div>
+    </div>
+
+    <!-- CANCIÓN -->
+    <div class="card">
+      <h3 class="card-title">🎵 Sugerí una Canción</h3>
+      <div class="card-content">
+        <form action="#" method="post">
+          <input type="text" placeholder="Tu canción favorita" required />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- DRESS CODE -->
+    <div class="card">
+      <h3 class="card-title">💃 Dress Code & Tips</h3>
+      <div class="card-content">
+        <p>Vestimenta formal. ¡Traé tus mejores galas para brillar esa noche!</p>
+        <p>No olvides cargar tu celular para muchas fotos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="redes">
+    <h2>Compartí con el hashtag</h2>
+    <p>#XVLucía</p>
+    <p>Seguime en Instagram: <a href="https://www.instagram.com/luli.alanizz/?hl=es-la">@luli.alanizz</a></p>
+  </section>
+
+  <!-- MODAL EMERGENTE -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="detalles.js"></script>
+</body>
+</html>
